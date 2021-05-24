@@ -1,0 +1,15 @@
+<div class="card my-4" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title"><%= @question %></h5>
+    <h6 class="card-subtitle mb-2 text-muted">-You</h6>
+  </div>
+</div>
+
+<div class="card my-4" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title"><%= @answer %></h5>
+    <h6 class="card-subtitle mb-2 text-muted">-Your coach</h6>
+  </div>
+</div>
+
+<%= link_to 'Ask a new question', ask_path %>
